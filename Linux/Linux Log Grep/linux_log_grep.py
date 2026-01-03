@@ -14,7 +14,7 @@ username = "root"
 
 for i in range(len(sys.argv)):
     if sys.argv[i] == "--keyword" and i + 1 < len(sys.argv):
-        ketword = sys.argv[i + 1]
+        keyword = sys.argv[i + 1]
     if sys.argv[i] == "--finlename" and i + 1 < len(sys.argv):
         filename = sys.argv[i + 1]
     if sys.argv[i] == "--server" and i + 1 < len(sys.argv):
